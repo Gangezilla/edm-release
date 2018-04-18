@@ -1,0 +1,42 @@
+.image-canvas-image-canvas {
+  position: relative;
+  width: 100%;
+
+  .image-canvas-image-overlay {
+    display: inline-block;
+    position: relative;
+  }
+
+  .image-canvas-h-line {
+    position: absolute;
+  }
+
+  .image-canvas-uploaded-image {
+    // width: 100%;
+  }
+
+  .image-canvas-v-line {
+    background-color: red;
+    height: 100%;
+    position: absolute;
+    width: 2px;
+  }
+
+  .image-canvas-slice-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .image-canvas-rendered-slice {
+      border: 1px solid blue;
+      position: absolute;
+    }
+  }
+
+
+  //STATES
+  .image-canvas-is-hidden {
+    display: none;
+  }
+
+}

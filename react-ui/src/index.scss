@@ -1,0 +1,27 @@
+.image-overlay {
+  display: inline-block;
+  position: relative;
+}
+
+.h-line {
+  background-color: red;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+}
+
+.v-line {
+  background-color: red;
+  height: 100%;
+  position: absolute;
+  width: 2px;
+}
+
+//STATES
+.is-hidden {
+  display: none;
+}
+
+.image-canvas {
+  background-color: red;
+}
